@@ -1,0 +1,126 @@
+@media (max-width:1024px) {
+    html {
+        font-size: 90%;
+    }
+
+    .desc-hero {
+        padding: 0% 0.5% 0 20%;
+    }
+
+    .col-right-wrapper {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-right {
+        align-items: normal;
+    }
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 80%;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    .desc-hero {
+        position: relative;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 50px;
+
+    }
+
+    .img-hero {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    .bullet,
+    .name,
+    .description {
+        width: auto;
+    }
+
+    .school-item,
+    .experience-item {
+        flex-wrap: wrap;
+    }
+
+    .school-item .name,
+    .experience-item .name {
+        margin-left: 20px;
+    }
+
+    .school-item .description,
+    .experience-item .description {
+        margin-top: 20px;
+    }
+
+
+}
+
+@media (min-width:768px) {
+    .desktop {
+        display: flex;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
+
+@media (max-width:992px) {
+
+    .col-left,
+    .col-right {
+        width: 100%;
+    }
+    .empty-col {
+        height: auto;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+    .col-right .section-title {
+        margin: 50px auto;
+
+    }
+}
+
+.desc-hero h1,
+.desc-hero h2 {
+    color: white;
+}
+
+@media (max-width:400px) {
+    .img-hero img {
+        max-width: 100%;
+        width: auto;
+    }
+
+    .img-hero {
+        margin: 40px;
+    }
+}
