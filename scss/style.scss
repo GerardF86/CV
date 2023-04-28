@@ -1,28 +1,8 @@
-// @import url(reset.css);
-// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-// @import url(variables.css);
-// @import url(colors.css);
-// @import url(typography.css);
-// @import url(custom.css);
-// @import url(rwd.css);
-
-
 @import 'reset';
-// @import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap';
-@import 'bootstrap';
-// @import 'variables';
-// @import 'colors';
-// @import 'typography';
-// @import 'custom';
-// @import 'rwd';
-
-// $primery-color: black;
-
-// .klasa1{
-//     .klasa2{
-//         font-size: 10px;
-//         .klasa3{
-//             color: $primery-color;
-//         }
-//     }
-// }
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap';
+// @import 'bootstrap';
+@import 'variables';
+@import 'colors';
+@import 'typography';
+@import 'custom';
+@import 'rwd';
